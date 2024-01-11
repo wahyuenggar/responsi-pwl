@@ -10,9 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 def start():
     return """
-    Masuk Ke /perawat
-    Masuk ke /dokter
-    Masuk ke /pasiien"""
+    Masuk Ke /perawat Masuk ke /dokter Masuk ke /pasien"""
 
 app.config.from_object('config')
 
